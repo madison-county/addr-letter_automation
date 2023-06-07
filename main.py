@@ -6,7 +6,10 @@ document = Document()
 section = document.sections[0]
 header = section.header
 
-document.add_heading('Madison County GIS Office', 0)
+paragraph = header.paragraphs[0]
+paragraph.text = 'Madison County GIS Office'
+
+#document.add_heading('Madison County GIS Office', 0)
 
 p = document.add_paragraph('Lorem ipsum')
 p.add_run('bold').bold = True
