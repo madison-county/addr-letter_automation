@@ -10,7 +10,7 @@ p.add_run('bold').bold = True
 p.add_run(' and some ')
 p.add_run('italic').italic = True
 
-document.add_heading('Heading, level 1', level=1)
+#document.add_heading('Heading, level 1', level=0)
 
 document.add_page_break()
 
