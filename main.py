@@ -4,6 +4,7 @@ from docx.shared import Inches
 document = Document()
 
 section = document.sections[0]
+header = section.header
 
 document.add_heading('Madison County GIS Office', 0)
 
