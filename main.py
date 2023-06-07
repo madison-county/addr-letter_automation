@@ -3,6 +3,8 @@ from docx.shared import Inches
 
 document = Document()
 
+section = document.sections[0]
+
 document.add_heading('Madison County GIS Office', 0)
 
 p = document.add_paragraph('Lorem ipsum')
