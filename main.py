@@ -9,6 +9,7 @@ def main():
 
     paragraph = header.paragraphs[0]
     paragraph.text = 'Madison County GIS Office'
+    paragraph.style = document.styles['Header']
 
     #document.add_heading('Madison County GIS Office', 0)
 
