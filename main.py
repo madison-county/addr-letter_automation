@@ -1,5 +1,5 @@
 from docx import Document
-form docx.shared import Inches
+from docx.shared import Inches
 
 document = Document()
 
