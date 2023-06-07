@@ -13,3 +13,5 @@ p.add_run('italic').italic = True
 document.add_heading('Heading, level 1', level=1)
 
 document.add_page_break()
+
+document.save('demo.docx')
