@@ -34,10 +34,11 @@ def main():
     document.save('demo.docx')
 
 
+
 def excel_parse(sheet):
     cells = sheet['A2' : 'E3']
     for c1, c2, c3, c4, c5 in cells:
-        print(f'{c1.value} - {c2.value} - {c3.value}\n{c4.value}\n{c5.value}')
+        print(f'{c1.value} - {c2.value} - {c3.value}\n{c4.value}\n{c5.value}\n')
 
 
 if __name__ == '__main__':
