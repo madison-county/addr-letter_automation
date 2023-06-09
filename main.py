@@ -11,6 +11,8 @@ def main():
     wb = pyxl.load_workbook(excel_sheet)
     sheet = wb.active
 
+    excel_parse(sheet)
+
     section = document.sections[0]
     header = section.header
 
@@ -34,6 +36,9 @@ def main():
 
 def excel_parse(sheet):
     cells = sheet['A2' : 'E20']
+    for c1, c2, c3, c4, c5 in cells:
+        print(f'{c1.value} - {c2.value} - {c3.value}\n{c4.value} - {c5.value}')
+
 
 if __name__ == '__main__':
     main()
