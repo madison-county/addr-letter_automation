@@ -7,7 +7,9 @@ excel_sheet = 'automation_test.xlsx'
 def main():
 
     document = Document()
+
     wb = pyxl.load_workbook(excel_sheet)
+    sheet = wb.active
 
     section = document.sections[0]
     header = section.header
