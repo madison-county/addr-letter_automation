@@ -32,5 +32,8 @@ def main():
     document.save('demo.docx')
 
 
+def excel_parse():
+    pass
+
 if __name__ == '__main__':
     main()
