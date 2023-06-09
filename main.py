@@ -32,7 +32,7 @@ def main():
     document.save('demo.docx')
 
 
-def excel_parse():
+def excel_parse(sheet):
     pass
 
 if __name__ == '__main__':
