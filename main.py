@@ -33,7 +33,7 @@ def main():
 
 
 def excel_parse(sheet):
-    pass
+    cells = sheet['A2' : 'E20']
 
 if __name__ == '__main__':
     main()
